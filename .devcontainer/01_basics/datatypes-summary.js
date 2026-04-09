@@ -14,7 +14,7 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-const bigNumber = 387468802847548484848438n
+//const bigNumber = 387468802847548484848438n
 
 // Reference (non primitive)
 
@@ -23,10 +23,41 @@ const bigNumber = 387468802847548484848438n
 const heros = ["ironman", "spiderman", "flash"];
 let myObj = {
     name: "yesh",
-    age = 22,
+    age : 22,
 }
 
-const myFuncton =  myfunction(){
-    console.log("hello world");
+const myFuncton = function(){
+        console.log("hello world");
+       
     
 }
+
+//console.log(typeof bigNumber);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive), heap(non-primitive)
+
+let myChannelname = "yeshdotcom"
+
+let anothername = myChannelname
+anothername = "chaiwithyesh"
+
+console.log(myChannelname);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl" 
+
+}
+
+let userTwo = userOne
+
+userTwo.email = "yesh@g.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+s
